@@ -1,0 +1,24 @@
+using System;
+
+namespace omarapp
+{
+   public class Minutes{
+        
+        public  int minutes(int a)
+        {
+           int result = a * 60;
+            return result;
+        }
+    }
+    public class Program
+    {
+
+        static void Main(string[] args)
+        {
+            Minutes calc=new Minutes();
+            int input = int.Parse(Console.ReadLine());
+            int calculatedResult = calc.minutes(input);
+            Console.WriteLine(calculatedResult); 
+        }
+    }
+}
