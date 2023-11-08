@@ -1,0 +1,10 @@
+public class Program 
+{
+	public static bool IsEqual(int num1, int num2)
+	{
+		if (num1==num2){
+			return true;
+		}
+		return false;
+	}
+}
