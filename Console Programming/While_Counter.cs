@@ -1,10 +1,3 @@
-
-//Write a C# program which prints out the values 1 to 10 on separate lines (Use WHILE statement)
-
-
-
-
-
 using System;
 
 
